@@ -1,0 +1,23 @@
+<!-- Modal -->
+<div class="modal fade" id="portionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+          <p class="dishes-text">Колличество порций: </p>
+          <button class = "btn minus btn-danger btn-sm" onclick="minus()">-</button>
+          <p class = "dishes-count" id = "dishes-count-id" > 0 </p>
+          <button class="btn btn-success btn-sm plus" id = "btn-plus" onclick="plus()">+</button>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-success">Добавить в меню</button>
+      </div>
+    </div>
+  </div>
+</div>
